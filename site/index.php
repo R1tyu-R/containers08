@@ -9,7 +9,6 @@ $db = new Database($config["db"]["path"]);
 
 $page = new Page(__DIR__ . '/templates/index.tpl');
 
-// bad idea, not recommended
 $pageId = $_GET['page'];
 
 $data = $db->Read("page", $pageId);

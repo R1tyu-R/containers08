@@ -3,9 +3,9 @@
 
 require_once __DIR__ . '/testframework.php';
 
-require_once __DIR__ . '/../site/config.php';
-require_once __DIR__ . '/../site/modules/database.php';
-require_once __DIR__ . '/../site/modules/page.php';
+require_once dirname(__DIR__) . '/site/config.php';
+require_once dirname(__DIR__) . '/site/modules/database.php';
+require_once dirname(__DIR__) . '/site/modules/page.php';
 
 $testFramework = new TestFramework();
 
